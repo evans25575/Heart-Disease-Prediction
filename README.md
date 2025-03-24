@@ -18,7 +18,7 @@ An interactive machine learning dashboard for predicting heart disease risk usin
 
 1. Clone the repository:
 
-   git clone https://github.com/your-username/Heart-Disease-Prediction.git
+   git clone https://github.com/evans25575/Heart-Disease-Prediction.git
    cd Heart-Disease-Prediction
 
    Usage
