@@ -11,7 +11,7 @@ from sklearn.metrics import classification_report, accuracy_score
 @st.cache_data
 def load_data():
     try:
-        data = pd.read_csv("C:/Users/Admin/Downloads/archive (3)/heart.csv")
+        data = pd.read_csv("C:\Users\Admin\Desktop\project\Heart_Disease_Prediction/heart.csv")
         return data
     except Exception as e:
         st.error(f"Error loading data: {str(e)}")
