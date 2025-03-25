@@ -65,8 +65,4 @@ MIT
 Save as app/screenshots/dashboard.png
 
 
-### Key Customization Points:
-1. Replace `your-username` in the git clone URL
-2. Add actual screenshots to `/app/screenshots/`
-3. Update model metrics if different
-4. Add your name under `## Author` if desired
+
