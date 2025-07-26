@@ -54,15 +54,10 @@ Accuracy	92%
 Precision	0.91
 Recall	0.93
 F1-Score	0.92
-Screenshots
-Dashboard Preview <!-- Add your screenshot -->
 
 License
 MIT
 
-
-
-Save as app/screenshots/dashboard.png
 
 
 
