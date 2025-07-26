@@ -5,59 +5,110 @@
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Accuracy](https://img.shields.io/badge/accuracy-92%25-brightgreen?style=for-the-badge)
 
-An interactive machine learning dashboard for predicting heart disease risk using clinical parameters.
 
-## Features
+# ❤️ Heart Disease Prediction
 
-- **Exploratory Data Analysis**: Visualize distributions and correlations
-- **Real-time Predictions**: Random Forest model with 92% accuracy
-- **Feature Importance**: Understand key clinical indicators
-- **Mobile-Friendly**: Responsive Streamlit interface
+An interactive machine learning dashboard built with Streamlit that predicts the likelihood of heart disease based on clinical parameters. The model is trained on the Cleveland Heart Disease dataset and achieves high accuracy using a Random Forest Classifier.
 
-## Installation
+---
 
-1. Clone the repository:
+## 📌 Objectives
 
-   git clone https://github.com/evans25575/Heart-Disease-Prediction.git
-   cd Heart-Disease-Prediction
+- Train and evaluate machine learning models to predict heart disease.
+- Provide real-time predictions using a user-friendly Streamlit app.
+- Visualize key features and model performance metrics.
+- Deploy a responsive dashboard for users to interact with.
 
-   Usage
-Run the Streamlit app:
+---
 
+## 🧠 Key Features
+
+- 📊 **Exploratory Data Analysis**: Correlation matrix, histograms, and outlier checks
+- 🤖 **Model**: Random Forest (Accuracy: 92%)
+- 🧮 **Feature Importance**: Visual ranking of predictors
+- 📱 **Mobile-Friendly**: Built with responsive design in Streamlit
+- 📥 **Fast Predictions**: Form-based input → result in real time
+
+---
+
+## 🛠 Tech Stack
+
+- Python (Pandas, NumPy, Scikit-learn)
+- Streamlit (Dashboard UI)
+- Matplotlib / Seaborn
+- Jupyter Notebook
+
+---
+
+## 📂 Project Structure
+
+```bash
+.
+├── app/
+│   ├── heart_app.py       # Streamlit dashboard script
+│   └── utils.py           # Helper functions (optional)
+├── data/
+│   └── heart.csv          # Dataset
+├── notebooks/
+│   └── analysis.ipynb     # EDA and model development
+├── requirements.txt       # Dependencies
+└── README.md              # Project documentation
+
+
+📊 Dataset Summary
+
+Dataset: Cleveland Heart Disease Dataset
+Records: 303 patient samples
+Target Variable: Heart disease presence (0 = no disease, 1–4 = disease)
+Features:
+
+Age, sex, chest pain type, cholesterol, resting BP, etc.
+
+
+
+---
+
+🚀 How to Run the App
+
+1. Clone the repository
+
+git clone https://github.com/evans25575.
+cd Heart-Disease-Prediction
+
+2. Install dependencies
+pip install -r requirements.txt
+
+3. Run the Streamlit dashboard
 
 streamlit run app/heart_app.py
-The app will launch at http://localhost:8501
 
-Project Structure
-.
-├── app/                  # Streamlit application
-│   ├── heart_app.py      # Main dashboard script
-│   └── utils.py          # Helper functions (if any)
-├── data/                 
-│   └── heart.csv         # Clinical dataset
-├── notebooks/
-│   └── analysis.ipynb    # Jupyter notebook with EDA
-├── requirements.txt      # Python dependencies
-└── README.md             # This file
-Dataset
-The Cleveland Heart Disease Dataset contains:
+Visit: http://localhost:8501
 
-303 patient records
 
-13 clinical features (age, cholesterol, etc.)
+---
 
-Target: Presence of heart disease (0-4)
+✅ Model Performance
 
-Model Performance
 Metric	Score
+
 Accuracy	92%
 Precision	0.91
 Recall	0.93
 F1-Score	0.92
 
-License
-MIT
 
 
 
+👨‍💻 Author
 
+Evans Kiplangat
+🌐 https://github.com/evans25575
+🐙 https://evans-kiplangat-portfolio27.netlify.app/
+
+
+
+---
+
+📜 License
+
+MIT License
